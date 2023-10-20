@@ -6,9 +6,10 @@ function getSmallestNumber(a, b) {
   const result = Math.min(a, b);
   return result;
 }
-console.log(getSmallestNumber(100, 10));
-function castBoolean() {}
-
+function castBoolean(value) {
+  const result = Boolean(value);
+  return result;
+}
 function capitalize() {}
 
 function countCapitalLetters() {}
